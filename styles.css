@@ -208,6 +208,12 @@ section p {
     text-align: center; /* Center the paragraph text */
 }
 
+.mission-gif, .feature-gif {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
 .modal {
     display: none; /* Hidden by default */
     position: fixed;
@@ -242,6 +248,11 @@ section p {
     width: 80%; /* Ensure the video fills the modal content */
     max-width: 600px; /* Prevent video from being too wide */
     border-radius: 10px;
+}
+
+.modal-image {
+    width: 80%;
+    height: auto;
 }
 
 .close {

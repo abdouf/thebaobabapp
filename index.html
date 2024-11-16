@@ -44,10 +44,13 @@
         <h2>Our Mission & Vision</h2>
         <p>Empowering small businesses in Africa by creating innovative solutions that unlock the full potential of the informal economy — the backbone of economic growth and job creation across the region</p>
         <div class="mission-box">
+            <img src="gdp_vs_workforce.gif" alt="Mission GIF" class="mission-gif">
+            <!--
             <video class="mission-video" autoplay loop muted>
-                <source src="gdp_vs_workforce.mp4" type="video/mp4">
+                <source src="gdp_vs_workforce.gif" type="video/gif">
                 Your browser does not support the video tag.
             </video>
+            -->
         </div>
     </section>
 
@@ -56,26 +59,35 @@
         <h2>Our Products</h2>
         <div class="features-grid">
             <div class="feature-box" onclick="openModal('Baobab-App-Video.mp4', 'Baobab App')">
+                <!--
                 <video class="feature-video" autoplay loop muted>
-                    <source src="Baobab-App-Video.mp4" type="video/mp4">
+                    <source src="Baobab-App-Video.gif" type="video/gif">
                     Your browser does not support the video tag.
                 </video>
+                -->
+                <img src="Baobab-App-Video.gif" alt="Baobab App GIF" class="feature-gif">
                 <h3>Baobab App</h3>
                 <p>Android App for inventory management, sales tracking, and financial analysis.</p>
             </div>
             <div class="feature-box" onclick="openModal('Baobab-Logistics-Video.mp4', 'Baobab Logistics')">
+                <!--
                 <video class="feature-video" autoplay loop muted>
-                    <source src="Baobab-Logistics-Video.mp4" type="video/mp4">
+                    <source src="Baobab-Logistics-Video.gif" type="video/gif">
                     Your browser does not support the video tag.
                 </video>
+                -->
+                <img src="Baobab-Logistics-Video.gif" alt="Baobab App GIF" class="feature-gif">
                 <h3>Baobab Logistics</h3>
                 <p>Integrated logistics for seamless B2B transactions in Africa.</p>
             </div>
-            <div class="feature-box" onclick="openModal('Baobab-Database-Video.mp4', 'Baobab Database')">
+            <div class="feature-box" onclick="openModal('Baobab-Database-Video.gif', 'Baobab Database')">
+                <!--
                 <video class="feature-video" autoplay loop muted>
-                    <source src="Baobab-Database-Video.mp4" type="video/mp4">
+                    <source src="Baobab-Database-Video.gif" type="video/gif">
                     Your browser does not support the video tag.
                 </video>
+                -->
+                <img src="Baobab-Database-Video.gif" alt="Baobab App GIF" class="feature-gif">
                 <h3>Baobab Database</h3>
                 <p>Insights for investors and policymakers.</p>
             </div>
@@ -87,12 +99,23 @@
         <div class="modal-content">
             <span class="close" onclick="closeModal()">&times;</span>
             <h3 id="modalTitle"></h3> <!-- Dynamic title for the modal -->
+            <img id="modalImage" alt="Modal Content" class="modal-image">
+        </div>
+    </div>
+
+    <!-- Modal -->
+    <!--
+    <div id="videoModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <h3 id="modalTitle"></h3>
             <video id="modalVideo" controls autoplay>
-                <source id="modalSource" type="video/mp4">
+                <source id="modalSource" type="video/gif">
                 Your browser does not support the video tag.
             </video>
         </div>
     </div>
+    -->
 
     <!-- How It Works -->
     <section id="how-it-works" class="how-it-works">

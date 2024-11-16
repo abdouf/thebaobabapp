@@ -41,3 +41,13 @@ function closeModal() {
     modalVideo.pause();
     modal.style.display = 'none';
 }
+
+function openModal(imageSrc, title) {
+    document.getElementById('modalImage').src = imageSrc;
+    document.getElementById('modalTitle').innerText = title;
+    document.getElementById('videoModal').style.display = 'block';
+}
+
+function closeModal() {
+    document.getElementById('videoModal').style.display = 'none';
+}
